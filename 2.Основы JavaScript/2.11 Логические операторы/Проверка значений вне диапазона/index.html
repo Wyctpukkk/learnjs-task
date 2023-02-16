@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let number = prompt('Введите число', '');
+      // if(number<14||number>90)
+      if (!(number >= 14 && number <= 90)) {
+        alert(`${number} не находится в диапазоне от 14 до 90 включительно`);
+      } else {
+        alert(`${number} находится в диапазоне от 14 до 90 включительно`);
+      }
+    </script>
+  </body>
+</html>
