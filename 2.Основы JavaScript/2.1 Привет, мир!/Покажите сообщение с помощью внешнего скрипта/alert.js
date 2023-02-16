@@ -1,1 +1,1 @@
-alert('Я JavaScript!');
+alert('Вынесенный скрипт вне html');
